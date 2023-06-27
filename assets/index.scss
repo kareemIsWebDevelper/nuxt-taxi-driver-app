@@ -1,0 +1,13 @@
+@use "./sass/layout/global-rules";
+
+input {
+     width: 500px;
+     height: 60px;
+     margin-top: 20px;
+     text-indent: 20px;
+     background-color: beige;
+     @media screen and (max-width: 400px) {
+          width: 270px;
+          height: 40px;
+     }
+}
